@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Home">
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:contentDescription="logoView"
+    android:scaleType="fitXY"
+    app:srcCompat="@drawable/vlogo" />
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="300dp"
+android:layout_marginStart="20dp"
+android:layout_centerHorizontal="true"
+android:layout_below="@id/imageView"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/definition"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:autoSizeTextType="uniform"
+    android:fontFamily="@font/aclonica"
+    android:padding="10dp"
+    android:text="Definition" />
+
+<View
+    android:id="@+id/divider"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:outlineAmbientShadowColor="@android:color/black"
+    android:outlineSpotShadowColor="@android:color/black"
+    android:background="?android:attr/listDivider" />
+
+<TextView
+    android:id="@+id/dos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:autoSizeTextType="uniform"
+    android:fontFamily="@font/aclonica"
+    android:padding="10dp"
+    android:text="Daily Value" />
+
+
+<View
+    android:id="@+id/divider2"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="?android:attr/listDivider" />
+
+<TextView
+    android:id="@+id/vitamin_asses"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:autoSizeTextType="uniform"
+    android:fontFamily="@font/aclonica"
+    android:padding="10dp"
+    android:text="Vitamin assessment" />
+
+</LinearLayout>
+</RelativeLayout>

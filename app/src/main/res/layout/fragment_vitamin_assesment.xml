@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="90dp"
+    android:padding="10dp"
+    tools:context=".VitaminAssesment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/assessment" />
+
+            <Button
+                android:id="@+id/assesone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D8FFFFFF"
+                android:fontFamily="serif"
+                android:padding="30dp"
+                android:shadowColor="#A3B6B6B6"
+                android:text="WEBMD" />
+
+            <Button
+                android:id="@+id/assestwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D8FFFFFF"
+                android:fontFamily="serif"
+                android:padding="30dp"
+                android:shadowColor="#A3B6B6B6"
+                android:text="FREE VITAMIN DEFICIENCY TEST" />
+
+            <Button
+                android:id="@+id/assesthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D8FFFFFF"
+                android:fontFamily="serif"
+                android:padding="30dp"
+                android:shadowColor="#A3B6B6B6"
+                android:text="TAKE CARE OF" />
+
+            <Button
+                android:id="@+id/assesfour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D8FFFFFF"
+                android:fontFamily="serif"
+                android:padding="30dp"
+                android:shadowColor="#A3B6B6B6"
+                android:text="PERSONA NUTRITION" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vitamins recommended best profficinal and consumer brands:" />
+
+    <ImageView
+        android:id="@+id/pure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pure" />
+
+    <ImageView
+        android:id="@+id/thorne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/throne" />
+
+            <ImageView
+                android:id="@+id/lifextension"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/lifeext" />
+
+            <ImageView
+                android:id="@+id/jarrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jarrow" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For more about brands please visit:" />
+            <TextView
+                android:id="@+id/morebrands"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="https://www.isotrope.com/best-vitamin-and-supplement-brands/" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

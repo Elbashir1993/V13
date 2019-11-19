@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.besha.v13.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_definition2"
+            app:destination="@id/definition2" />
+        <action
+            android:id="@+id/action_home2_to_dosage"
+            app:destination="@id/dosage" />
+        <action
+            android:id="@+id/action_home2_to_vitaminAssesment"
+            app:destination="@id/vitaminAssesment" />
+    </fragment>
+    <fragment
+        android:id="@+id/definition2"
+        android:name="com.besha.v13.Definition"
+        android:label="fragment_definition"
+        tools:layout="@layout/fragment_definition" >
+        <action
+            android:id="@+id/action_definition2_to_vi"
+            app:destination="@id/vi" />
+    </fragment>
+    <fragment
+        android:id="@+id/vi"
+        android:name="com.besha.v13.Vi"
+        android:label="fragment_vi"
+        tools:layout="@layout/fragment_vi" />
+    <fragment
+        android:id="@+id/dosage"
+        android:name="com.besha.v13.Dosage"
+        android:label="fragment_dosage"
+        tools:layout="@layout/fragment_dosage" />
+    <fragment
+        android:id="@+id/vitaminAssesment"
+        android:name="com.besha.v13.VitaminAssesment"
+        android:label="fragment_vitamin_assesment"
+        tools:layout="@layout/fragment_vitamin_assesment" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.besha.v13.about"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.besha.v13.contact"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

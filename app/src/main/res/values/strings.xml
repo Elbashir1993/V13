@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">V13</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_one">Description: </string>
+    <string name="title_two">Benefits: </string>
+    <string name="title_three">Sources: </string>
+    <string name="title_four">Risk: </string>
+    <string name="title_five">References: </string>
+    <string name="wrong">something went wrong!!!</string>
+    <string name="title_dynamicfeature">Module Title</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="daily_value_title">Vitamins daily value recpect to age</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="_500_mcg_rae">500 mcg RAE</string>
+    <string name="_15_600_iu_mcg">15 (600 IU) mcg</string>
+    <string name="d">D</string>
+    <string name="_500_mcg">500 mcg</string>
+    <string name="_300_mcg_rae">300 mcg RAE</string>
+    <string name="e">E</string>
+    <string name="_5_mg">5 mg</string>
+    <string name="_15_mg">15 mg</string>
+    <string name="_90_120_lact_mg">90, 120(lact) mg</string>
+    <string name="mg">mg :</string>
+    <string name="microgram_1000_micrograms_1_milligram">microgram (1000 micrograms = 1 milligram)</string>
+    <string name="mcg">mcg :</string>
+    <string name="https_www_consumerlab_com_rdas">https://www.consumerlab.com/RDAs/</string>
+    <string name="abbreviations_footnotes">Abbreviations/Footnotes:</string>
+    <string name="lacting_breast_feeding">lacting(breast feeding)</string>
+    <string name="milligram_1000_milligrams_1_gram">milligram (1000 milligrams = 1 gram)</string>
+    <string name="lact">lact :</string>
+    <string name="preg">preg :</string>
+    <string name="pregnant">pregnant</string>
+    <string name="for_more_detailed_info_about_dosage_and_it_s_upper_limit_ul_refere_to_the_source_site">For more detailed info about dosage and it\'s upper limit(UL) refere to the source site:</string>
+    <string name="assessment">When you decide to take vitamins, the best way to choose the right ones for you is by consulting a doctor. Nevertheless, there are websites have a built in vitamin assessment program. they will ask you multiple questions, and then, they will compare your answers to the various benefits and deficiency symptoms of each vitamin. Lastly, they will give you the best answer on which vitamins you should take. Down are health websites using this vitamin assessment programs:</string>
+    <string name="about">The app is intended to those who have a desire to take vitamins but do not know where to start. We have also provided info of all vitamins, their benefits, usage and side effecte. We also included links to many websites that will help you choose the vitamins that suit you. Nonetheless, always consider to get advice directly from your doctor, or see one before taking vitamins.</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contact">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:showDividers="middle|beginning|end">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:autoSizeTextType="uniform"
+            android:textSize="30sp"
+            android:layout_column="1"
+            tools:targetApi="o" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:textSize="30sp"
+            android:text="Elbashir Mohamed Elamin"
+            android:layout_column="2"
+            tools:ignore="UnusedAttribute" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:autoSizeTextType="uniform"
+            android:textSize="30sp"
+            android:layout_column="1"
+            tools:ignore="UnusedAttribute" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:textSize="30sp"
+            android:text="Elbashir1993@hotmail.com"
+            android:layout_column="2"
+            tools:ignore="UnusedAttribute" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:autoSizeTextType="uniform"
+            android:textSize="30sp"
+            android:layout_column="1"
+            tools:ignore="UnusedAttribute" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+601123892853"
+            android:autoSizeTextType="uniform"
+            android:textSize="30sp"
+            android:layout_column="2"
+            tools:targetApi="o" />
+    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:autoSizeTextType="uniform"
+                android:textSize="30sp"
+                android:layout_column="1"
+                tools:ignore="UnusedAttribute" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+601123892853"
+                android:autoSizeTextType="uniform"
+                android:textSize="30sp"
+                android:layout_column="2"
+                tools:targetApi="o" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
